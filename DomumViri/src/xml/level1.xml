@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<game>
+    <tiles>
+        <tileInfo id="0">
+            <name>AirTile</name>
+            <image>\src\Images\AirTile.png</image>
+            <collidable>false</collidable>
+            <width>64</width>
+            <height>64</height>  
+            <death>false</death>
+        </tileInfo>
+        <tileInfo id="1">
+            <name>GroundTile</name>
+            <image>\src\Images\GroundTile.png</image>
+            <collidable>true</collidable>
+            <width>64</width>   
+            <height>64</height>      
+            <death>false</death>     
+        </tileInfo>
+        <tileInfo id="2">
+            <name>GrassTile</name>
+            <image>\src\Images\GrassTile.png</image>
+            <collidable>true</collidable>
+            <width>64</width>
+            <height>64</height>    
+            <death>false</death>               
+        </tileInfo>
+        <tileInfo id="3">
+            <name>AirDeathTile</name>
+            <image>\src\Images\AirTile.png</image>
+            <collidable>true</collidable>
+            <width>64</width>
+            <height>64</height>    
+            <death>true</death>               
+        </tileInfo>        
+    </tiles>
+    <items>
+        <item>
+            <id>1</id>
+            <tile>1</tile>
+            <damageModifier>0.8</damageModifier>
+            <speedModifier>0.4</speedModifier>
+            <gravityModifer>1.2</gravityModifer>
+        </item>
+    </items>
+    <spawnpoints>
+        <spawnpoint>
+            <type>0</type>
+            <x>25</x>
+            <y>60</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>0</type>
+            <x>34</x>
+            <y>60</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>0</type>
+            <x>44</x>
+            <y>60</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>0</type>
+            <x>47</x>
+            <y>60</y>
+        </spawnpoint>                        
+    </spawnpoints>
+</game>

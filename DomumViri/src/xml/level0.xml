@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<game>
+    <tiles>
+        <tileInfo id="0">
+            <name>AirTile</name>
+            <image>\src\Images\AirTile.png</image>
+            <collidable>false</collidable>
+            <width>64</width>
+            <height>64</height>  
+            <death>false</death>
+        </tileInfo>
+        <tileInfo id="1">
+            <name>GroundTile</name>
+            <image>\src\Images\GroundTile.png</image>
+            <collidable>true</collidable>
+            <width>64</width>   
+            <height>64</height>      
+            <death>false</death>     
+        </tileInfo>
+        <tileInfo id="2">
+            <name>GrassTile</name>
+            <image>\src\Images\GrassTile.png</image>
+            <collidable>true</collidable>
+            <width>64</width>
+            <height>64</height>    
+            <death>false</death>               
+        </tileInfo>
+        <tileInfo id="3">
+            <name>AirDeathTile</name>
+            <image>\src\Images\AirTile.png</image>
+            <collidable>true</collidable>
+            <width>64</width>
+            <height>64</height>    
+            <death>true</death>               
+        </tileInfo>        
+    </tiles>
+    <entities>
+        <entity id="1">
+            <image>\src\Images\goatfighter.png</image>
+        </entity>
+        <entity id="2">
+            <image>\src\Images\Robot.png</image>
+        </entity>  
+        <entity id="3">
+            <image>\src\Images\HealthPotion.png</image>
+        </entity>  
+        <entity id="4">
+            <image>\src\Images\Shoes.png</image>
+        </entity>  
+        <entity id="5">
+            <image>\src\Images\Sword.png</image>
+        </entity>  
+        <entity id="6">
+            <image>\src\Images\Shield.png</image>
+        </entity>                                  
+    </entities>
+    <spawnpoints>
+        <spawnpoint>
+            <type>0</type>
+            <x>25</x>
+            <y>17</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>0</type>
+            <x>34</x>
+            <y>20</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>0</type>
+            <x>44</x>
+            <y>25</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>0</type>
+            <x>47</x>
+            <y>20</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>1</type>
+            <x>31</x>
+            <y>17</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>1</type>
+            <x>36</x>
+            <y>20</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>1</type>
+            <x>46</x>
+            <y>25</y>
+        </spawnpoint>
+        <spawnpoint>
+            <type>1</type>
+            <x>45</x>
+            <y>20</y>
+        </spawnpoint>             
+    </spawnpoints>
+</game>
